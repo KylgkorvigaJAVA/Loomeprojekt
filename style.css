@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    padding-top: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+}
+
+.sidebar {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .btn {
+    width: 100%;
+    text-align: left;
+    border:solid 1px #d7d7d7;
+    background-color: white;
+}
+
+.sidebar .btn:focus,
+.sidebar .btn:active,
+.sidebar .btn:focus-visible {
+    border-color: #cecece;
+}
+
+.sidebar .collapse {
+    width: 100%;
+}
+
+.sidebar .collapse .btn {
+    text-align: left;
+    width: 100%;
+    border-radius: 0 !important;
+}
+
+#textStylesCollapse .sub-button {
+    background-color: #f3f3f3;
+    padding-left: 1.8rem;
+}
+
+.content-area {
+    background-color: #fff;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+.nav-button {
+    border:solid 1px #cecece;
+    border-radius: 0 !important;
+}
+
+.sub-button {
+    border-radius: 0 !important;
+}
