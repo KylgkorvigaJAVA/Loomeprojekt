@@ -27,13 +27,13 @@
                 <div class="tab-content" id="instructionTabsContent">
                     <!-- Word juhend -->
                     <div class="tab-pane fade show active" id="word-menu" role="tabpanel">
-                        <button class="btn nav-button" onclick="showContent('word/1_yldnõuded')">1. Vormistamise üldnõuded</button>
-                        <button class="btn nav-button" onclick="showContent('word/2_nouanded')">2. Nõuandeid kirjutamiseks</button>
-                        <button class="btn nav-button position-relative" data-bs-toggle="collapse" data-bs-target="#wordTextStylesCollapse">3. Vormindamine
+                        <button class="btn nav-button" onclick="showContent('word/1_vormistamise_yldnouded')">1. Vormistamise üldnõuded</button>
+                        <button class="btn nav-button" onclick="showContent('word/2_nouanded_kirjutamiseks')">2. Nõuandeid kirjutamiseks</button>
+                        <button class="btn nav-button position-relative" data-bs-toggle="collapse" data-bs-target="#wordTextSettingsCollapse">3. Vormindamine
                             <i class="bi bi-chevron-down position-absolute end-0 me-2"></i>
                         </button>
 
-                        <div class="collapse" id="wordTextStylesCollapse">
+                        <div class="collapse" id="wordTextSettingsCollapse">
                             <button class="btn sub-button" onclick="showContent('word/3_1_lehe_seadistamine')">3.1 Lehe seadistamine</button>
                             <button class="btn sub-button" onclick="showContent('word/3_2_tavatekst')">3.2 Tavatekst</button>
                             <button class="btn sub-button" onclick="showContent('word/3_3_pealkiri_1')">3.3 Pealkiri 1</button>
@@ -41,9 +41,22 @@
                             <button class="btn sub-button" onclick="showContent('word/3_5_pealkiri_3')">3.5 Pealkiri 3</button>
                         </div>
 
-                        <button class="btn nav-button" onclick="showContent('word/4_tiitelleht')">4. Tiitellehe loomine</button>
-                        <button class="btn nav-button" onclick="showContent('word_lehe_numbrid')">4. Leheküljenumbrid</button>
-                        <button class="btn nav-button" onclick="showContent('word_sisukord')">5. Sisukord</button>
+                        <button class="btn nav-button" onclick="showContent('word/4_tiitellehe_loomine')">4. Tiitellehe loomine</button>
+                        <button class="btn nav-button position-relative" data-bs-toggle="collapse" data-bs-target="#wordContentFormatCollapse">5. Sisu vormistamine
+                            <i class="bi bi-chevron-down position-absolute end-0 me-2"></i>
+                        </button>
+
+                        <div class="collapse" id="wordContentFormatCollapse">
+                            <button class="btn sub-button" onclick="showContent('word/5_1_viitamine')">5.1 Viitamine</button>
+                            <button class="btn sub-button" onclick="showContent('word/5_2_loetelud')">5.2 Loetelud</button>
+                            <button class="btn sub-button" onclick="showContent('word/5_3_tabelid')">5.3 Tabelid</button>
+                            <button class="btn sub-button" onclick="showContent('word/5_4_sisukorra_loomine')">5.4 Sisukorra loomine</button>
+                            <button class="btn sub-button" onclick="showContent('word/5_5_seled')">5.5 Seled</button>
+                            <button class="btn sub-button" onclick="showContent('word/5_6_sonastiku_loomine')">5.6 Sõnastiku loomine</button>
+                            <button class="btn sub-button" onclick="showContent('word/5_7_lehekylje_numbrid')">5.7 Lehekülje numbrid</button>
+                        </div>
+                        <button class="btn nav-button" onclick="showContent('word/kasutatud_allikad')">6. Kasutatud allikad</button>
+                        <button class="btn nav-button" onclick="showContent('word/lisade_kasutamine')">7. Lisade kasutamine</button>
                     </div>
 
                     <!-- G-Docs juhend -->

@@ -68,13 +68,10 @@ body {
     background-color: #f9f9f9;
 }
 
-#googleTextStylesCollapse .sub-button,
-#wordTextStylesCollapse .sub-button {
-    background-color: #f3f3f3;
-    padding-left: 1.8rem;
-}
-
-#textStylesCollapse .sub-button {
+#googleTextSettingsCollapse .sub-button,
+#googleContentFormatCollapse .sub-button,
+#wordTextSettingsCollapse .sub-button,
+#wordContentFormatCollapse .sub-button {
     background-color: #f3f3f3;
     padding-left: 1.8rem;
 }
