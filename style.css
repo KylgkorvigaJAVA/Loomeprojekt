@@ -46,6 +46,28 @@ body {
     border-radius: 0 !important;
 }
 
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #000;
+}
+
+.styled-table th,
+.styled-table td {
+    border: 1px solid #000;
+    padding: 12px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
 #googleTextStylesCollapse .sub-button,
 #wordTextStylesCollapse .sub-button {
     background-color: #f3f3f3;
