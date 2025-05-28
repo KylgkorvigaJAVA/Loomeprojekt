@@ -45,6 +45,13 @@ body {
     width: 100%;
     border-radius: 0 !important;
 }
+
+#googleTextStylesCollapse .sub-button,
+#wordTextStylesCollapse .sub-button {
+    background-color: #f3f3f3;
+    padding-left: 1.8rem;
+}
+
 #textStylesCollapse .sub-button {
     background-color: #f3f3f3;
     padding-left: 1.8rem;
@@ -60,6 +67,23 @@ body {
     border:solid 1px #cecece;
     border-radius: 0 !important;
 }
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #495057;
+    background-color: #f3f3f3;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
 
 .sub-button {
     border-radius: 0 !important;
