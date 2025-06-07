@@ -34,29 +34,41 @@
                         </button>
 
                         <div class="collapse" id="wordTextSettingsCollapse">
-                            <button class="btn sub-button" onclick="showContent('word/3_1_lehe_seadistamine')">3.1 Lehe seadistamine</button>
-                            <button class="btn sub-button" onclick="showContent('word/3_2_tavatekst')">3.2 Tavatekst</button>
-                            <button class="btn sub-button" onclick="showContent('word/3_3_pealkiri_1')">3.3 Pealkiri 1</button>
-                            <button class="btn sub-button" onclick="showContent('word/3_4_pealkiri_2')">3.4 Pealkiri 2</button>
-                            <button class="btn sub-button" onclick="showContent('word/3_5_pealkiri_3')">3.5 Pealkiri 3</button>
-                            <button class="btn sub-button" onclick="showContent('word/3_6_lehekylje_numbrid')">3.6 Lehekülje numbrid</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/3_1_lehe_seadistamine')">3.1 Lehe seadistamine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/3_2_tavatekst')">3.2 Tavatekst</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/3_3_pealkiri_1')">3.3 Pealkiri 1</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/3_4_pealkiri_2')">3.4 Pealkiri 2</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/3_5_pealkiri_3')">3.5 Pealkiri 3</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/3_6_lehekylje_numbrid')">3.6 Lehekülje numbrid</button>
                         </div>
 
-                        <button class="btn nav-button position-relative" data-bs-toggle="collapse" data-bs-target="#wordContentFormatCollapse">5. Sisu vormistamine
+                        <button class="btn nav-button position-relative" data-bs-toggle="collapse" data-bs-target="#wordContentFormatCollapse">4. Sisu vormistamine
                             <i class="bi bi-chevron-down position-absolute end-0 me-2"></i>
                         </button>
 
                         <div class="collapse" id="wordContentFormatCollapse">
-                            <button class="btn sub-button" onclick="showContent('word/5_tiitellehe_loomine')">5.1 Tiitellehe loomine</button>
-                            <button class="btn sub-button" onclick="showContent('word/5_1_viitamine')">5.1 Viitamine</button>
-                            <button class="btn sub-button" onclick="showContent('word/5_2_loetelud')">5.2 Loetelud</button>
-                            <button class="btn sub-button" onclick="showContent('word/5_3_tabelid')">5.3 Tabelid</button>
-                            <button class="btn sub-button" onclick="showContent('word/5_4_sisukorra_loomine')">5.4 Sisukorra loomine</button>
-                            <button class="btn sub-button" onclick="showContent('word/5_5_seled')">5.5 Seled</button>
-                            <button class="btn sub-button" onclick="showContent('word/5_6_sonastiku_loomine')">5.6 Sõnastiku loomine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_1_tiitellehe_loomine')">4.1 Tiitellehe loomine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_2_loetelud')">4.2 Loetelud</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_3_tabelid')">4.3 Tabelid</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_4_seled')">4.4 Seled</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_5_sisukorra_loomine')">4.5 Sisukorra loomine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_6_sonastiku_loomine')">4.6 Sõnastiku loomine</button>
                         </div>
-                        <button class="btn nav-button" onclick="showContent('word/6_kasutatud_allikad')">6. Kasutatud allikad</button>
-                        <button class="btn nav-button" onclick="showContent('word/7_lisade_kasutamine')">7. Lisade kasutamine</button>
+
+                        <button class="btn nav-button position-relative" data-bs-toggle="collapse" data-bs-target="#wordContentSourcesCollapse">5. Viitamine ja kasutatud allikad
+                            <i class="bi bi-chevron-down position-absolute end-0 me-2"></i>
+                        </button>
+
+                        <div class="collapse" id="wordContentSourcesCollapse">
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/5_1_viitamine')">4.1 Viitamine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_2_loetelud')">4.2 Loetelud</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_3_tabelid')">4.3 Tabelid</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_4_sisukorra_loomine')">4.4 Sisukorra loomine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_5_seled')">4.5 Seled</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_6_sonastiku_loomine')">4.6 Sõnastiku loomine</button>
+                        </div>
+
+                        <button class="btn nav-button" onclick="showContent('word/7_lisade_kasutamine')">6. Lisade kasutamine</button>
                     </div>
 
                     <!-- G-Docs juhend nupud -->

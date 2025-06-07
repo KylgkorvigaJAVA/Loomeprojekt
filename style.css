@@ -16,6 +16,11 @@ body {
     height: auto;
 }
 
+.submenu {
+    background-color: #f3f3f3;
+    padding-left: 1.8rem;
+}
+
 .sidebar {
     min-height: 95vh;
     display: flex;
@@ -68,10 +73,7 @@ body {
     background-color: #f9f9f9;
 }
 
-#googleTextSettingsCollapse .sub-button,
-#googleContentFormatCollapse .sub-button,
-#wordTextSettingsCollapse .sub-button,
-#wordContentFormatCollapse .sub-button {
+#sub-button {
     background-color: #f3f3f3;
     padding-left: 1.8rem;
 }
