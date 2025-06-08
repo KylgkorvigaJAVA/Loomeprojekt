@@ -32,7 +32,6 @@
                         <button class="btn nav-button position-relative" onclick="showContent('word/3_dokumendi_vormindamine')" data-bs-toggle="collapse" data-bs-target="#wordTextSettingsCollapse">3. Dokumendi vormindamine
                             <i class="bi bi-chevron-down position-absolute end-0 me-2"></i>
                         </button>
-
                         <div class="collapse" id="wordTextSettingsCollapse">
                             <button id="sub-button" class="btn sub-button" onclick="showContent('word/3_1_lehe_seadistamine')">3.1 Lehe seadistamine</button>
                             <button id="sub-button" class="btn sub-button" onclick="showContent('word/3_2_tavatekst')">3.2 Tavatekst</button>
@@ -45,7 +44,6 @@
                         <button class="btn nav-button position-relative" onclick="showContent('word/4_sisu_vormistamine')" data-bs-toggle="collapse" data-bs-target="#wordContentFormatCollapse">4. Sisu vormistamine
                             <i class="bi bi-chevron-down position-absolute end-0 me-2"></i>
                         </button>
-
                         <div class="collapse" id="wordContentFormatCollapse">
                             <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_1_tiitellehe_loomine')">4.1 Tiitellehe loomine</button>
                             <button id="sub-button" class="btn sub-button" onclick="showContent('word/4_2_loetelud')">4.2 Loetelud</button>
@@ -58,7 +56,6 @@
                         <button class="btn nav-button position-relative" data-bs-toggle="collapse" data-bs-target="#wordContentSourcesCollapse">5. Viitamine ja kasutatud allikad
                             <i class="bi bi-chevron-down position-absolute end-0 me-2"></i>
                         </button>
-
                         <div class="collapse" id="wordContentSourcesCollapse">
                             <button id="sub-button" class="btn sub-button" onclick="showContent('word/5_1_viitamine')">5.1 Viitamine</button>
                             <button id="sub-button" class="btn sub-button" onclick="showContent('word/5_2_raamat')">5.2 Raamat</button>
@@ -75,22 +72,50 @@
                     </div>
 
                     <!-- G-Docs juhend nupud -->
-                    <div class="tab-pane fade" id="google-menu" role="tabpanel">
-                        <button class="btn nav-button" onclick="showContent('google_lehe_seaded')">1. Lehekülje sätted</button>
-                        <button class="btn nav-button position-relative" data-bs-toggle="collapse" data-bs-target="#googleTextStylesCollapse">2. Tekstilaadid
+                    <div class="tab-pane fade show active" id="word-menu" role="tabpanel">
+                        <button class="btn nav-button" onclick="showContent('gdocs/1_vormistamise_yldnouded')">1. Vormistamise üldnõuded</button>
+                        <button class="btn nav-button" onclick="showContent('gdocs/2_nouanded_kirjutamiseks')">2. Nõuandeid kirjutamiseks</button>
+                        <button class="btn nav-button position-relative" onclick="showContent('gdocs/3_dokumendi_vormindamine')" data-bs-toggle="collapse" data-bs-target="#wordTextSettingsCollapse">3. Dokumendi vormindamine
                             <i class="bi bi-chevron-down position-absolute end-0 me-2"></i>
                         </button>
-
-                        <div class="collapse" id="googleTextStylesCollapse">
-                            <button class="btn sub-button" onclick="showContent('google_tavatekst')">Tavatekst</button>
-                            <button class="btn sub-button" onclick="showContent('google_pealkiri_1')">Pealkiri 1</button>
-                            <button class="btn sub-button" onclick="showContent('google_pealkiri_2')">Pealkiri 2</button>
-                            <button class="btn sub-button" onclick="showContent('google_pealkiri_3')">Pealkiri 3</button>
+                        <div class="collapse" id="wordTextSettingsCollapse">
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/3_1_lehe_seadistamine')">3.1 Lehe seadistamine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/3_2_tavatekst')">3.2 Tavatekst</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/3_3_pealkiri_1')">3.3 Pealkiri 1</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/3_4_pealkiri_2')">3.4 Pealkiri 2</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/3_5_pealkiri_3')">3.5 Pealkiri 3</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/3_6_lehekylje_numbrid')">3.6 Lehekülje numbrid</button>
                         </div>
 
-                        <button class="btn nav-button" onclick="showContent('google_tiitelleht')">3. Tiitelehe loomine</button>
-                        <button class="btn nav-button" onclick="showContent('google_lehe_numbrid')">4. Leheküljenumbrid</button>
-                        <button class="btn nav-button" onclick="showContent('google_sisukord')">5. Sisukord</button>
+                        <button class="btn nav-button position-relative" onclick="showContent('gdocs/4_sisu_vormistamine')" data-bs-toggle="collapse" data-bs-target="#wordContentFormatCollapse">4. Sisu vormistamine
+                            <i class="bi bi-chevron-down position-absolute end-0 me-2"></i>
+                        </button>
+                        <div class="collapse" id="wordContentFormatCollapse">
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/4_1_tiitellehe_loomine')">4.1 Tiitellehe loomine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/4_2_loetelud')">4.2 Loetelud</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/4_3_tabelid')">4.3 Tabelid</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/4_4_seled')">4.4 Seled</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/4_5_sisukorra_loomine')">4.5 Sisukorra loomine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/4_6_sonastiku_loomine')">4.6 Sõnastiku loomine</button>
+                        </div>
+
+                        <button class="btn nav-button position-relative" data-bs-toggle="collapse" data-bs-target="#wordContentSourcesCollapse">5. Viitamine ja kasutatud allikad
+                            <i class="bi bi-chevron-down position-absolute end-0 me-2"></i>
+                        </button>
+                        <div class="collapse" id="wordContentSourcesCollapse">
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/5_1_viitamine')">5.1 Viitamine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/5_2_raamat')">5.2 Raamat</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/5_3_perioodikavaljaande_artikkel')">5.3 Perioodikaväljaande artikkel</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/5_4_veebisaidilt_parinev_dokument')">5.4 Veebisaidilt pärinev dokument</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/5_5_veebisait')">5.5 Veebisait</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/5_6_oigusakt')">5.6 Õigusakt</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/5_7_mitmesugust')">5.7 Mitmesugust</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/5_8_tehisintellektile_viitamine')">5.8 Tehisintellektile viitamine</button>
+                            <button id="sub-button" class="btn sub-button" onclick="showContent('gdocs/5_9_kasutatud_allikad')">5.9 Kasutatud allikad</button>
+                        </div>
+
+                        <button class="btn nav-button" onclick="showContent('gdocs/6_lisade_kasutamine')">6. Lisade kasutamine</button>
+                        <button class="btn nav-button" onclick="showContent('gdocs/7_failide_jagamine_ja_koostoo')">6. Lisade kasutamine</button>
                     </div>
                 </div>
             </div>
