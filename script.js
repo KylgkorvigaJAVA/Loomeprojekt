@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function showContent(contentPath) {
     localStorage.setItem('activeContent', contentPath);
 
-    fetch(`tutorials/${contentPath}.html`)
+    fetch(`html/${contentPath}.html`)
         .then(response => response.text())
         .then(data => {
             document.getElementById('content-area').innerHTML = data;
