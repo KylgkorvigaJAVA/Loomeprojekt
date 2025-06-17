@@ -88,8 +88,8 @@ body {
 
 .content-area {
     background-color: #fff;
-    height: calc(100vh - 100px);
-    overflow-y: auto;
+    margin-bottom: 30px;
+    overflow-y: none;
 }
 
 .nav-button {
