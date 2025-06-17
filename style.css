@@ -11,6 +11,14 @@ body {
     padding-right: 8%;
 }
 
+.footer {
+    background-color: black;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+
 .header-img {
     width: 100%;
     height: auto;
@@ -22,7 +30,7 @@ body {
 }
 
 .sidebar {
-    min-height: 95vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
 }
